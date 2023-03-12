@@ -1,0 +1,220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "ncnn",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn-Release-876b85e4038c3d629d59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ncnn"
+				},
+				{
+					"build" : "ncnn/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn.src-Release-8963f20fc891d7cc23bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ncnn/src",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "imgui",
+					"jsonFile" : "directory-imgui-Release-9501a8a71dcfe9b6b2a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "imgui",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "speech",
+					"jsonFile" : "directory-speech-Release-4bf4c65de83398f5c855.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "speech",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "microbit_voice",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "ncnn",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "IMGUI",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "speech",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "capture_wav::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-capture_wav-Release-8a4588ab9e46f09ea91d.json",
+					"name" : "capture_wav",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@45ca6dacf63e9879b888",
+					"jsonFile" : "target-imgui-Release-9693315b79e51ecc496f.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "make_language_table::@b4e4cb8ab65db16c9bdd",
+					"jsonFile" : "target-make_language_table-Release-5e1e6ba5ef7112607da6.json",
+					"name" : "make_language_table",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ncnn::@156d1a2703f133959025",
+					"jsonFile" : "target-ncnn-Release-b214eb4ed118f25c558b.json",
+					"name" : "ncnn",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ncnn-generate-spirv::@156d1a2703f133959025",
+					"jsonFile" : "target-ncnn-generate-spirv-Release-04a12d6d61392992b451.json",
+					"name" : "ncnn-generate-spirv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ncnn_speech_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ncnn_speech_test-Release-cd46ca456eeeab14aa58.json",
+					"name" : "ncnn_speech_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "speech::@b4e4cb8ab65db16c9bdd",
+					"jsonFile" : "target-speech-Release-a0fe6e5599c25bdb550e.json",
+					"name" : "speech",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build",
+		"source" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

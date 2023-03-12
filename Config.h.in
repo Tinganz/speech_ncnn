@@ -1,0 +1,9 @@
+#ifndef _CONFIG_HPP_
+#define _CONFIG_HPP_
+#define DEFAULT_MODEL_PATH                              "@SDK_MODEL_DIR@"
+#define DEFAULT_VOICE_PATH                              "@SDK_VOICE_DIR@"
+#endif
+
+// Local Variables:
+// mode: c++
+// End:

@@ -1,0 +1,39 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"ncnn/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "libncnn"
+	},
+	"id" : "ncnn-generate-spirv::@156d1a2703f133959025",
+	"name" : "ncnn-generate-spirv",
+	"paths" : 
+	{
+		"build" : "ncnn/src",
+		"source" : "ncnn/src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

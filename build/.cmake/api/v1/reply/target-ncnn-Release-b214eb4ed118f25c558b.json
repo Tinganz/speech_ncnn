@@ -1,0 +1,2727 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libncnn.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"ncnn/src/CMakeLists.txt",
+			"ncnn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 596,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 370,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 591,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 449,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 408,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 444,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				36,
+				37,
+				38,
+				39,
+				41,
+				42,
+				43,
+				44,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				65,
+				66,
+				67,
+				69,
+				70,
+				71,
+				72,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				90,
+				91,
+				92,
+				93,
+				95,
+				96,
+				98,
+				99,
+				101,
+				102,
+				104,
+				105,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				118,
+				119,
+				121,
+				122,
+				123,
+				124,
+				126,
+				127,
+				129,
+				130,
+				131,
+				132,
+				134,
+				135,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				148,
+				149,
+				151,
+				152,
+				153,
+				154,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				163,
+				164,
+				165,
+				167,
+				168,
+				172,
+				173,
+				174,
+				175,
+				176,
+				178,
+				179,
+				180,
+				181,
+				183,
+				184,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				},
+				{
+					"fragment" : "-march=armv8.2-a+fp16"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				25,
+				33,
+				40,
+				45,
+				54,
+				64,
+				68,
+				73,
+				81,
+				89,
+				94,
+				97,
+				100,
+				103,
+				106,
+				117,
+				120,
+				125,
+				128,
+				133,
+				136,
+				150,
+				155,
+				162,
+				166,
+				170,
+				177,
+				182,
+				185
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				},
+				{
+					"fragment" : "-march=armv8.2-a+fp16+dotprod"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				34
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				},
+				{
+					"fragment" : "-march=armv8.4-a+fp16+dotprod+i8mm"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				35
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				},
+				{
+					"fragment" : " "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				53,
+				146,
+				169
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				},
+				{
+					"fragment" : "-march=armv8.2-a+fp16+fp16fml"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				55,
+				171
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ftree-vectorize -fpermissive -fomit-frame-pointer -funroll-loops -march=armv8-a -Xclang -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-inconsistent-dllimport"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Xclang"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				},
+				{
+					"fragment" : "-march=armv8.4-a+fp16+dotprod+bf16"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"define" : "ncnn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer/arm"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/build/ncnn/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/tingan/Desktop/\u672a\u547d\u540d\u6587\u4ef6\u5939/speech_ncnn/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				147
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "ncnn-generate-spirv::@156d1a2703f133959025"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "libncnn"
+	},
+	"id" : "ncnn::@156d1a2703f133959025",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/homebrew/lib/libomp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/homebrew/lib/libomp.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ncnn",
+	"nameOnDisk" : "libncnn.dylib",
+	"paths" : 
+	{
+		"build" : "ncnn/src",
+		"source" : "ncnn/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "sources",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "sources\\layers",
+			"sourceIndexes" : 
+			[
+				21,
+				23,
+				26,
+				28,
+				29,
+				31,
+				36,
+				38,
+				41,
+				43,
+				46,
+				47,
+				48,
+				49,
+				51,
+				56,
+				57,
+				58,
+				60,
+				61,
+				62,
+				65,
+				66,
+				69,
+				70,
+				71,
+				74,
+				76,
+				77,
+				79,
+				82,
+				84,
+				86,
+				87,
+				90,
+				91,
+				92,
+				95,
+				98,
+				101,
+				104,
+				107,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				118,
+				121,
+				123,
+				126,
+				129,
+				130,
+				131,
+				134,
+				137,
+				138,
+				139,
+				140,
+				142,
+				144,
+				148,
+				151,
+				153,
+				156,
+				157,
+				159,
+				160,
+				163,
+				164,
+				167,
+				172,
+				173,
+				174,
+				175,
+				178,
+				180,
+				183,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205
+			]
+		},
+		{
+			"name" : "sources\\layers\\arm",
+			"sourceIndexes" : 
+			[
+				22,
+				24,
+				27,
+				30,
+				32,
+				37,
+				39,
+				42,
+				44,
+				50,
+				52,
+				59,
+				63,
+				67,
+				72,
+				75,
+				78,
+				80,
+				83,
+				85,
+				88,
+				93,
+				96,
+				99,
+				102,
+				105,
+				108,
+				116,
+				119,
+				122,
+				124,
+				127,
+				132,
+				135,
+				141,
+				143,
+				145,
+				149,
+				152,
+				154,
+				158,
+				161,
+				165,
+				168,
+				176,
+				179,
+				181,
+				184
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				25,
+				33,
+				34,
+				35,
+				40,
+				45,
+				53,
+				54,
+				55,
+				64,
+				68,
+				73,
+				81,
+				89,
+				94,
+				97,
+				100,
+				103,
+				106,
+				117,
+				120,
+				125,
+				128,
+				133,
+				136,
+				146,
+				147,
+				150,
+				155,
+				162,
+				166,
+				169,
+				170,
+				171,
+				177,
+				182,
+				185
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/allocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/blob.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/c_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/command.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/cpu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/datareader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/gpu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_affine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_drawing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_resize.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_rotate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/modelbin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/net.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/option.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/paramdict.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/pipeline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/pipelinecache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/absval.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/absval_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/batchnorm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/batchnorm_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/batchnorm_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/bias.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/bias_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/bnll.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/concat.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/concat_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolution.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/convolution_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/convolution_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "ncnn/src/layer/arm/convolution_arm_asimddp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "ncnn/src/layer/arm/convolution_arm_i8mm.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/crop.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/crop_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolution.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/deconvolution_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/deconvolution_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/dropout.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/dropout_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/eltwise.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/eltwise_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/eltwise_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/elu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/embed.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/exp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/flatten.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/flatten_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/innerproduct.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/innerproduct_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "ncnn/src/layer/arm/innerproduct_arm_vfpv4.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/innerproduct_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 5,
+			"path" : "ncnn/src/layer/arm/innerproduct_arm_asimdfhm.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/input.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/log.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/lrn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/lrn_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/memorydata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/mvn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/pooling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/pooling_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/pooling_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/power.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/prelu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/prelu_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/prelu_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/proposal.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/reduction.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/relu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/relu_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/relu_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/reshape.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/reshape_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/roipooling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/scale.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/scale_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/sigmoid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/sigmoid_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/sigmoid_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/slice.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/slice_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/softmax.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/softmax_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/split.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/tanh.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/tanh_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/tanh_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/threshold.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/tile.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/rnn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/rnn_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/rnn_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/lstm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/lstm_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/lstm_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/binaryop.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/binaryop_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/binaryop_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/unaryop.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/unaryop_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/unaryop_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolutiondepthwise.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/convolutiondepthwise_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/convolutiondepthwise_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/padding.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/padding_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/squeeze.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/expanddims.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/normalize.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/permute.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/priorbox.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/detectionoutput.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/interp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/interp_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/interp_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolutiondepthwise.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/deconvolutiondepthwise_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/shufflechannel.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/shufflechannel_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/instancenorm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/instancenorm_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/instancenorm_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/clip.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/clip_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/clip_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/reorg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/yolodetectionoutput.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/quantize.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/quantize_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/quantize_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/dequantize.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/dequantize_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/dequantize_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/yolov3detectionoutput.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/psroipooling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/roialign.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/packing.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/packing_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/requantize.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/requantize_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/cast.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/cast_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "ncnn/src/layer/arm/cast_arm_vfpv4.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 6,
+			"path" : "ncnn/src/layer/arm/cast_arm_bf16.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/hardsigmoid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/hardsigmoid_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/hardsigmoid_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/selu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/selu_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/hardswish.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/hardswish_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/hardswish_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/noop.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/pixelshuffle.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/pixelshuffle_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deepcopy.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/mish.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/mish_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/mish_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/statisticspooling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/swish.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/swish_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/swish_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/gemm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/gemm_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "ncnn/src/layer/arm/gemm_arm_vfpv4.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/gemm_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 5,
+			"path" : "ncnn/src/layer/arm/gemm_arm_asimdfhm.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/groupnorm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/layernorm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/softplus.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/gru.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/gru_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/gru_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/multiheadattention.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/multiheadattention_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/gelu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/gelu_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/gelu_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolution1d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/arm/convolution1d_arm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ncnn/src/layer/arm/convolution1d_arm_asimdhp.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/pooling1d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolutiondepthwise1d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolution3d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolutiondepthwise3d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/pooling3d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/matmul.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolution1d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolutiondepthwise1d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolution3d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolutiondepthwise3d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/einsum.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deformableconv2d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/relpositionalencoding.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/makepadmask.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/relshift.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/glu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/lstm2.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/fold.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/unfold.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/gridsample.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
